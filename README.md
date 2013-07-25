@@ -1,3 +1,8 @@
+# Note about this fork
+
+This fork simply removes the capybara driver, so I could install it in Heroku
+using https://github.com/ChristopheBelpaire/google_ajax_crawler_phantomjs
+
 # Google Ajax Crawler
 
 [![Build Status](https://travis-ci.org/benkitzelman/google-ajax-crawler.png)](https://travis-ci.org/benkitzelman/google-ajax-crawler)

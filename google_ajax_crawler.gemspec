@@ -10,6 +10,5 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.strip.split("\n")
   s.executables = []
 
-  s.add_dependency 'capybara-webkit', '>= 0.10.0'
   s.add_dependency 'rack'
 end

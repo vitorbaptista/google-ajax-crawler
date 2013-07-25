@@ -3,7 +3,6 @@ module GoogleAjaxCrawler
     attr_accessor :driver, :timeout, :requested_route_key, :page_loaded_test, :page_loaded_js, :poll_interval, :response_headers
 
     def initialize(app, &block)
-      @driver  = Drivers::CapybaraWebkit.new(self)
       @timeout = 30
       @requested_route_key  = '_escaped_fragment_'
       @response_headers     = { 'Content-Type' => 'text/html' }
